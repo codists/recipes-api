@@ -20,7 +20,6 @@ var err error
 var client *mongo.Client
 
 type Recipe struct {
-	//swagger:ignore
 	ID           string    `json:"id"`
 	Name         string    `json:"name"`
 	Tags         []string  `json:"tags"`
